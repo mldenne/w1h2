@@ -4,9 +4,26 @@
   <link rel="stylesheet" type="text/css" href="css/forms.css"/>
 
     <div>
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" placeholder="First and Last Name" />
+        <label for="firstname">First Name:</label>
+        <input type="text" id="name" name="name" placeholder="First Name" />
     </div>
+    <div>
+        <label for="lastame">Last Name:</label>
+        <input type="text" id="name" name="name" placeholder="Last Name" />
+    </div>
+    <div>
+        <label for="age">Age:</label>
+        <select id="age" name="age">
+          <option value="">--</option>
+          <option value="under18">Under 18</option>
+          <option value="19to24">19 to 24</option>
+          <option value="25to34">25 to 34</option>
+          <option value="35to44">35 to 44</option>
+          <option value="45to54">45 to 54</option>
+          <option value="55to64">55 to 64</option>
+          <option value="65andover">65 and over</option>
+        </select>
+      </div>
     <div>
         <label for="mail">Email:</label>
         <input type="email" id="mail" name="email" placeholder="email address" />
@@ -32,6 +49,6 @@
     </div>
 
     <div class="button">
-        <button type="submit">Submit</button>
+        <button type="submit">Click to Submit Form</button>
     </div>
 </form>
